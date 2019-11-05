@@ -1,0 +1,106 @@
+body {
+  background-image: url("homepage_background.jpg");
+  background-size: 100%;
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: right;
+  display: block;
+  background-color:#333;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: proxima-nova, sans-serif;
+  font-style: normal;
+  font-weight: 100;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.content {
+text-align: center;
+font-family: proxima-nova, sans-serif;
+font-style: normal;
+display: block;
+height: 300px;
+}
+
+section.features {
+display: block;
+text-align: center;
+font-family: proxima-nova, sans-serif;
+font-style: normal;
+color: white;
+height: 300px;
+width: auto;
+}
+
+.reason1 {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  font-size: 14px;
+  color: white;
+  line-height: 200px;
+  text-align: center;
+  background: rgba(249, 73, 109, .5);
+  display: inline-block;
+  margin: 10px;
+}
+.reason2 {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  font-size: 14px;
+  color: #fff;
+  line-height: 200px;
+  background: #000;
+  display: inline-block;
+  margin: 10px;
+  position: relative;
+}
+.reason3 {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  font-size: 10px;
+  color: #fff;
+  line-height: 200px;
+  text-align: center;
+  background: #000;
+  display: inline-block;
+  margin: 10px;
+}
+.myButton {
+    background-color:#333;
+    border-radius:28px;
+    display:block;
+    margin:auto;
+    width:30%;
+    text-align: center;
+    color:white;
+    font-family: proxima-nova, sans-serif;
+    font-style: normal;
+    font-size:17px;
+    padding:16px 31px;
+    text-decoration:none;
+    
+}
+.myButton:hover {
+    background-color:#F9496D;
+}
+.myButton:active {
+    position:relative;
+    top:1px;
+}
