@@ -20,12 +20,29 @@
                         <input id="email" name="email" type="email" placeholder="example@domain.com" required>
                     </li>
                     <li>
-                        <label for="phone">Phone</label>
+                        <label for="date">Date of Birth:</label>
                         <br>
-                        <input id="phone" name="phone" type="tel" placeholder="Eg. +61412345678" required>
+                        <input type="date" name="bday">
+                    </li>
+                    <li>
+                        <div class="gender">
+                            <label for="gender">Gender:</label>
+                            <br>
+                            Male<input type="radio" name="gender" value="male">
+                            Female<input type="radio" name="gender" value="female">
+                            Unspecified<input type="radio" name="gender" value="other"> 
+                        </div>
+                    </li>
+                    <li>
+                        <label for="password">Create a Password:</label>
+                        <br>
+                        <input type="password" placeholder="Password" id="password" required>
+                    </li>
+                    <li>
+                        <input type="password" placeholder="Confirm Password" id="confirm_password" required>
                     </li>
                 </ul>
-                <button type="submit">Buy it!</button>
+                <button type="submit">Next</button>
         </form>
       </main>
 </body>
