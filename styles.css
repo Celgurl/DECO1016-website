@@ -1,6 +1,8 @@
 body {
   background-image: url("homepage_background.jpg");
   background-size: 100%;
+  height: 100%;
+  width: 100%;
 }
 
 /* Style the top navigation bar */
@@ -140,7 +142,6 @@ display: inline-block;
   background-color:#333;
   border-radius:28px;
   display: block;
-  align-items: baseline;
   margin:auto;
   width:10%;
   text-align: center;
@@ -151,6 +152,9 @@ display: inline-block;
   font-size:17px;
   padding:16px 31px;
   text-decoration:none;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
 }
 
 section.subOptions {
@@ -214,3 +218,29 @@ section.subOptions {
   #sub3:hover {
     transform: scale(1.25); 
   }
+
+section.reviewDetails {
+  display: flex;
+  justify-content: space-around;
+  height: 100%;
+  flex-flow: row wrap;
+  margin: 50px auto 0px;
+  font-family: proxima-nova, sans-serif;
+  font-style: normal;
+  padding-top: 15%;
+}
+
+#detail1 {
+height: 300px;
+width: 200px;
+background: white;
+}
+
+#detail2 {
+  height: 300px;
+  width: 200px;
+  background: white;
+  }
+.credit-card {
+margin: 150px auto 0;
+}

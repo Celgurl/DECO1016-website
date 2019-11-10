@@ -6,7 +6,7 @@
 </head>
 <body>
     <main class="page">
-        <form id="details">
+        <form id="details" action="sign_up3.html">
                 <h2>Your details</h2>
                 <ul>
                     <li>
@@ -42,8 +42,19 @@
                         <input type="password" placeholder="Confirm Password" id="confirm_password" required>
                     </li>
                 </ul>
-                <a href="sign_up2.html" class="myNextButton">Next</a>
+
         </form>
       </main>
+      <form action="sign_up2.html">
+        <input type="submit" value="Click" onclick="passValues();"/>
+    </form>
+      <script>
+            function passValues() {
+                var firstName = document.getElementById("name").value;
+                localStorage.setItem("name", firstName);
+                return false;
+}
+      
+      </script>
 </body>
 </html>
