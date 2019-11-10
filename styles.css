@@ -135,3 +135,82 @@ text-align: center;
 width: 100px;
 display: inline-block;
 }
+
+.myNextButton {
+  background-color:#333;
+  border-radius:28px;
+  display: block;
+  align-items: baseline;
+  margin:auto;
+  width:10%;
+  text-align: center;
+  float: right;
+  color:white;
+  font-family: proxima-nova, sans-serif;
+  font-style: normal;
+  font-size:17px;
+  padding:16px 31px;
+  text-decoration:none;
+}
+
+section.subOptions {
+  display: flex;
+    justify-content: space-around;
+    height: 100%;
+    flex-flow: row wrap;
+    margin: 50px auto 0px;
+    font-family: proxima-nova, sans-serif;
+    font-style: normal;
+    padding-top: 15%;
+  }
+  
+  #sub1 {
+    width: 200px;
+    height: 200px;
+    border-radius: 10%;
+    font-size: 14px;
+    color: white;
+    text-align: center;
+    background: rgba(249, 73, 109, .5);
+    display: block;
+    margin: 20px;
+    transition: transform 1s;
+  }
+
+  #sub1:hover {
+    transform: scale(1.25); 
+  }
+
+  #sub2 {
+    width: 200px;
+    height: 200px;
+    border-radius: 10%;
+    font-size: 14px;
+    color: white;
+    text-align: center;
+    background: rgba(249, 73, 109, .5);
+    display: block;
+    margin: 20px;
+    transition: transform 1s;
+  }
+
+  #sub2:hover {
+    transform: scale(1.25); 
+  }
+
+  #sub3 {
+    width: 200px;
+    height: 200px;
+    border-radius: 10%;
+    font-size: 14px;
+    color: white;
+    text-align: center;
+    background: rgba(249, 73, 109, .5);
+    display: block;
+    margin: 20px;
+    transition: transform 1s
+  }
+
+  #sub3:hover {
+    transform: scale(1.25); 
+  }

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="styles.css">
+<title>Sign-Up</title>
+</head>
+<body>
+    <main class="page">
+        <section class="subOptions">
+            <div id="sub1">
+                <h2>Individual</h2>
+                <h1>$10.99 AUD</h1>
+                <h3>per month</h3>
+                <button onclick="subSelect1()">Try it</button>
+            </div>
+            <div id="sub2">
+                <h2>Family</h2>
+                <h1>$18.99 AUD</h1>
+                <h3>per month </h3>
+                <h4>for up to 5 users</h4>
+                <button onclick="subSelect2()">Select</button>
+            </div>
+            <div id="sub3">
+                <h2>Student</h2>
+                <h1>$5.99 AUD</h1>
+                <h3>per month</h3>
+                <button onclick="subSelect3()">Select</button>
+            </div>
+        </section>
+        <a href="sign_up3.html" class="myNextButton">Next</a>
+    </main>
+<script>
+    function subSelect1() {
+        document.getElementById("sub1").style.transform = "scale(1.25)";
+        document.getElementById("sub2").style.transform = "scale(1)"; 
+        document.getElementById("sub3").style.transform = "scale(1)";
+            }
+    function subSelect2() {
+        document.getElementById("sub2").style.transform = "scale(1.25)";
+        document.getElementById("sub3").style.transform = "scale(1)"; 
+        document.getElementById("sub1").style.transform = "scale(1)";
+            }
+    function subSelect3() {
+        document.getElementById("sub3").style.transform = "scale(1.25)"; 
+        document.getElementById("sub2").style.transform = "scale(1)"; 
+        document.getElementById("sub1").style.transform = "scale(1)"; 
+            }
+</script>
+</body>
+</html>
