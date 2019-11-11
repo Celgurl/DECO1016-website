@@ -1,24 +1,23 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="stylesheet" type="text/css" href="styles.css">
 <title>Sign-Up</title>
 </head>
 <body>
     <main class="page">
-            <form class="credit-card">
-                    <div class="form-header">
-                      <h4 class="title">Credit card detail</h4>
-                    </div>
-                   
-                    <div class="form-body">
-                      <input type="text" class="card-number" placeholder="Card Number">
-                   
-                      <div class="date-field">
-                        <div class="month">
-                          <select name="Month">
+<!-- card details -->
+        <form class="credit-card">
+            <div class="form-header">
+                <h4 class="title">Credit card detail</h4>
+            </div>      
+            <div class="form-body">
+                <input type="text" class="card-number" placeholder="Card Number">
+                <div class="date-field">
+                    <div class="month">
+                        <select name="Month">
                             <option value="january">January</option>
                             <option value="february">February</option>
                             <option value="march">March</option>
@@ -31,10 +30,10 @@
                             <option value="october">October</option>
                             <option value="november">November</option>
                             <option value="december">December</option>
-                          </select>
-                        </div>
-                        <div class="year">
-                          <select name="Year">
+                        </select>
+                    </div>
+                    <div class="year">
+                        <select name="Year">
                             <option value="2016">2016</option>
                             <option value="2017">2017</option>
                             <option value="2018">2018</option>
@@ -44,23 +43,21 @@
                             <option value="2022">2022</option>
                             <option value="2023">2023</option>
                             <option value="2024">2024</option>
-                          </select>
-                        </div>
-                      </div>
-                   
-                      <!-- Card Verification Field -->
-                      <div class="card-verification">
-                        <div class="cvv-input">
-                          <input type="text" placeholder="CVV">
-                        </div>
-                        <div class="cvv-details">
-                          <p>3 or 4 digits usually found <br> on the signature strip</p>
-                        </div>
-                      </div>
+                        </select>
                     </div>
-                  </form>
+                </div>
+                   
+                <div class="card-verification">
+                    <div class="cvv-input">
+                        <input type="text" placeholder="CVV">
+                    </div>
+                    <div class="cvv-details">
+                        <p>3 or 4 digits usually found <br> on the signature strip</p>
+                    </div>
+                </div>
+            </div>
+        </form>
         <a href="end_point1.html" class="myNextButton">Next</a>
-    </main>
-    
+    </main> 
 </body>
 </html>

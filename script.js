@@ -1,3 +1,4 @@
+// hover on subscription options (select button)
     function subSelect1() {
         document.getElementById("sub1").style.transform = "scale(1.25)";
         document.getElementById("sub2").style.transform = "scale(1)"; 

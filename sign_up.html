@@ -8,6 +8,7 @@
 </head>
 <body>
     <main class="page">
+<!-- sign-up form -->
         <form id="details" action="sign_up3.html">
                 <h2>Your details</h2>
                 <ul>
@@ -47,20 +48,22 @@
 
         </form>
       </main>
+<!-- when button is clicked, send values to localStorage -->
       <form id="sendInfo" action="sign_up2.html">
         <input type="submit" value="Click" onclick="passValues();"/>
     </form>
-      <script>
-            function passValues() {
-                var fullName = document.getElementById("name").value;
-                var fullemail = document.getElementById("email").value;
-                var fullBday= document.getElementById("bday").value;
-                var fullGender= document.getElementById("gender").value;
-                localStorage.setItem("name", fullName);
-                localStorage.setItem("email", fullEmail);
-                return false;
-}
+    <script>
+// sending the values that were typed into text fields into localStorage
+        function passValues() {
+            var fullName = document.getElementById("name").value;
+            var fullemail = document.getElementById("email").value;
+            var fullBday= document.getElementById("bday").value;
+            var fullGender= document.getElementById("gender").value;
+            localStorage.setItem("name", fullName);
+            localStorage.setItem("email", fullEmail);
+            return false;
+        }
       
-      </script>
+    </script>
 </body>
 </html>

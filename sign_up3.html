@@ -1,36 +1,34 @@
 <!DOCTYPE html>
 <html>
 <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="stylesheet" type="text/css" href="styles.css">
 <title>Sign-Up</title>
 </head>
 <body>
     <main class="page">
         <h2>Review</h2>
-<section class="reviewDetails">
-    <div id="detail1">
-        <label> Full Name: </label>
-        <div class="box">
-        <span id="finalName"></span>
-        </div>
-        <label> Email: </label>
-        <div class="box">
-            <span id="finalEmail"></span>
-        </div>
-    </div>
-    <div id="detail2">
-        naskfwiaewo
-    </div>
-</section>
-<a href="sign_up4.html" class="myNextButton">Next</a>
+        <section class="reviewDetails">
+            <div id="detail1">
+                <label> Full Name: </label>
+                <div class="box">
+                    <span id="finalName"></span>
+                </div>
+                <label> Email: </label>
+                <div class="box">
+                    <span id="finalEmail"></span>
+                </div>
+            </div>
+        </section>
+        <a href="sign_up4.html" class="myNextButton">Next</a>
     </main>
 <script>
-document.getElementById("finalName").innerHTML=localStorage.getItem("name");
-document.getElementById("finalEmail").innerHTML=localStorage.getItem("email");
-document.getElementById("finalBday").innerHTML=localStorage.getItem("bday");
-document.getElementById("finalGender").innerHTML=localStorage.getItem("gender");
+// grab the value from localStorage and add it as text in span items
+    document.getElementById("finalName").innerHTML=localStorage.getItem("name");
+    document.getElementById("finalEmail").innerHTML=localStorage.getItem("email");
+    document.getElementById("finalBday").innerHTML=localStorage.getItem("bday");
+    document.getElementById("finalGender").innerHTML=localStorage.getItem("gender");
 </script>
 </body>
 </html>
