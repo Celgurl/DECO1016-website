@@ -1,7 +1,9 @@
 <!DOCTYPE html>
 <html>
 <head>
-<link rel="stylesheet" type="text/css" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles.css">
 <title>Sign-Up</title>
 </head>
 <body>
@@ -22,15 +24,15 @@
                     <li>
                         <label for="date">Date of Birth:</label>
                         <br>
-                        <input type="date" name="bday">
+                        <input id="bday" type="date"  name="bday">
                     </li>
                     <li>
                         <div class="gender">
                             <label for="gender">Gender:</label>
                             <br>
-                            Male<input type="radio" name="gender" value="male">
-                            Female<input type="radio" name="gender" value="female">
-                            Unspecified<input type="radio" name="gender" value="other"> 
+                            Male<input id="gender" type="radio" name="gender" value="male">
+                            Female<input id="gender" type="radio" name="gender" value="female">
+                            Unspecified<input id="gender" type="radio" name="gender" value="other"> 
                         </div>
                     </li>
                     <li>
@@ -45,13 +47,17 @@
 
         </form>
       </main>
-      <form action="sign_up2.html">
+      <form id="sendInfo" action="sign_up2.html">
         <input type="submit" value="Click" onclick="passValues();"/>
     </form>
       <script>
             function passValues() {
-                var firstName = document.getElementById("name").value;
-                localStorage.setItem("name", firstName);
+                var fullName = document.getElementById("name").value;
+                var fullemail = document.getElementById("email").value;
+                var fullBday= document.getElementById("bday").value;
+                var fullGender= document.getElementById("gender").value;
+                localStorage.setItem("name", fullName);
+                localStorage.setItem("email", fullEmail);
                 return false;
 }
       
